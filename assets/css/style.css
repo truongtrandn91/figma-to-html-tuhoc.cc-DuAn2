@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Khôi phục cỡ chữ mặc định */
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ==================== common ==================== */
+
+.main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ========== Header ========== */
+
+.header {
+  background-color: #fff;
+  padding: 52px 0 50px;
+}
+
+.header .body {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav ul {
+  display: flex;
+  gap: 39px;
+}
+
+.nav a {
+  color: #2f3a3b;
+}
+
+.action .action_signin:hover,
+.nav a:hover {
+  /* Không dùng font-weight do bị nháy thẻ */
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.action .action_signin {
+  margin-left: 177px;
+  color: #494949;
+  text-align: center;
+}
+
+.action .active {
+  display: inline-block;
+  margin-left: 24px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  height: 48px;
+  color: #1ebfc1;
+  font-weight: 600;
+  padding: 12px 23px 12px 24px;
+}
